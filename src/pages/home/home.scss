@@ -3,3 +3,9 @@ ion-app.platform-android page-home ion-footer {
     // the error is present, half of the input is visible
     height: 2vh;
   }
+
+ion-app.platform-ios page-home ion-footer {
+  color: red;
+  // the error is present, half of the input is visible
+  height: 2vh;
+}
