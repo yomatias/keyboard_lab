@@ -15,4 +15,15 @@
   </p>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
+
+  <ion-footer>
+    <ion-toolbar>
+      <div class="toolbar-input">
+        <ion-textarea id="textarea" #textarea placeholder="Ingrese su mensaje"
+          rows="1" [readonly]="sending" autocorrect="on" autocomplete="on">
+        </ion-textarea>
+      </div>
+    </ion-toolbar>
+  </ion-footer>
+  
 </ion-content>
